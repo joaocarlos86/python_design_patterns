@@ -1,20 +1,5 @@
-# Strategy Design Pattern
+# Design Patterns - Python implementations
 
-This is the first commit of a try to implement the Strategy design
-pattern using Python. This implementation is derived of previous
-implementations in Java language. Maybe I'm not using all the resources
-that I could use in Python, but I think it is good enough.
+These are some design patterns implemented using the Python language. This is a support repo, the code here is designed to help who may be interested in learning design patterns itself or how to implement them using Python language.
 
-To add a new Strategy the user needs to create a new Class (hopefully a
-new file as well), subclass the ABC Strategy and implement at least two methods:
-
-* supports
-* execute
-
-The support methods will be called be the Executor to check if this
-strategy is suitable to process the desired input, if yes then the
-executor will call the execute method.
-
-At the Executor file, we need to import the new module and the class
-created and then add the strategy to the list of strategies.
-
+Unless otherwise specified, the code here is developed using the Python version 2.7.
